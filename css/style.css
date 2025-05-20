@@ -321,12 +321,16 @@ a.active {
 .about-border {
     position: absolute;
     border: 10px solid #425BB5;
-    width: 400px;
+    width: 340px;
     height: 400px;
     top: 40px;
     left: 50px;
     z-index: 1
 }
+ .profile-image {
+    height:380px;
+    width: 400px;
+ }
 
 
 /* experience section
@@ -589,8 +593,6 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
 .portfolio-padding {
