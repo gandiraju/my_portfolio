@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
 .resume{
     border: 1px solid #425BB5;
     background-color: #425BB5;
-    ;
+    
     border-radius: 2px;
 }
 .resume:hover{
@@ -322,14 +322,14 @@ a.active {
     position: absolute;
     border: 10px solid #425BB5;
     width: 340px;
-    height: 400px;
+    height: 450px;
     top: 40px;
     left: 50px;
     z-index: 1
 }
  .profile-image {
-    height:380px;
-    width: 400px;
+    height:432px;
+    width: 340px;
  }
 
 
@@ -765,6 +765,16 @@ fieldset {
 
 .social li a:hover {
     color: #425BB5;
+}
+.ed{
+    display: flex;
+    flex-direction: row;
+}
+.text-light {
+  color: #286090;
+}
+.title{
+    font-size: 20px;
 }
 
 
